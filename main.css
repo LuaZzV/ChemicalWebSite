@@ -1,0 +1,7661 @@
+/*Стилистика сайта*/
+.square-1
+{
+    background-color: #2c2c2c;
+    width: 1920px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 0;
+}
+.Site-icon
+{
+    background-image: url(Images/WebSiteIcon.png);
+    width: 80px;
+    height: 80px;
+    margin-top: -90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+}
+body
+{
+    font-family: 'Bahnschrift';
+    background-color: rgb(66, 66, 66);
+    overflow: hidden;
+    z-index: 0;
+}
+.line-1
+{
+    background-color: #1c1c1c;
+    width: 1920px;
+    height: 5px;
+    margin-top: 0px;
+    margin-left: -10px;
+    z-index: 0;
+}
+top-text
+{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    left: 100px;
+    top: 15px;
+    position: absolute;
+    z-index: 0;
+}
+.TG-icon
+{
+    background-image: url(Images/Telegram.png);
+    width: 60px;
+    height: 60px;
+    right: 17px;
+    top: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+}
+site-name
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 20px;
+    left: 550px;
+    position: absolute;
+    z-index: 0;
+}
+lantanide
+{
+    font-size: 33px;
+    color: #ab904d;
+    font-weight: bold;
+    top: 770px;
+    left: 30px;
+    position: absolute;
+    z-index: 0;
+}
+aktinide
+{
+    font-size: 33px;
+    color: #85a359;
+    font-weight: bold;
+    top: 850px;
+    left: 50px;
+    position: absolute;
+    z-index: 0;
+}
+periods
+{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 155px;
+    left: 12px;
+    position: absolute;
+    z-index: 0;
+}
+p1
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 185px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+p2
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 275px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+p3
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 360px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+p4
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 443px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+p5
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 530px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+p6
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 610px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+p7
+{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 700px;
+    left: 60px;
+    position: absolute;
+    z-index: 0;
+}
+/*Движение хим.элементов*/
+#info
+{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #606060;
+    top: 170px;
+    right: -500px;
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+}
+#info.active
+{
+    right: 0px;
+}
+#info.close
+{
+    right: -500px;
+}
+/*Информация о хим.элементах*/
+#H-info
+{
+    background-image: url(Elements/H.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textH1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 220px;
+    position: absolute;
+    z-index: 1;
+}
+textH2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textH3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textH3:hover
+{
+    text-decoration: underline;
+}
+#Li-info
+{
+    background-image: url(Elements/Li.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textLi1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textLi2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textLi3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textLi3:hover
+{
+    text-decoration: underline;
+}
+#Na-info
+{
+    background-image: url(Elements/Na.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textNa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNa3:hover
+{
+    text-decoration: underline;
+}
+#K-info
+{
+    background-image: url(Elements/K.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textK1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textK2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textK3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textK3:hover
+{
+    text-decoration: underline;
+}
+#Rb-info
+{
+    background-image: url(Elements/Rb.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRb1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textRb2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRb3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRb3:hover
+{
+    text-decoration: underline;
+}
+#Cs-info
+{
+    background-image: url(Elements/Cs.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textCs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCs3:hover
+{
+    text-decoration: underline;
+}
+#Fr-info
+{
+    background-image: url(Elements/Fr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textFr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textFr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textFr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textFr3:hover
+{
+    text-decoration: underline;
+}
+#Be-info
+{
+    background-image: url(Elements/Be.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textBe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textBe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textBe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textBe3:hover
+{
+    text-decoration: underline;
+}
+#Mg-info
+{
+    background-image: url(Elements/Mg.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textMg1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textMg2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textMg3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textMg3:hover
+{
+    text-decoration: underline;
+}
+#Ca-info
+{
+    background-image: url(Elements/Ca.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textCa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCa3:hover
+{
+    text-decoration: underline;
+}
+#Sr-info
+{
+    background-image: url(Elements/Sr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textSr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSr3:hover
+{
+    text-decoration: underline;
+}
+#Ba-info
+{
+    background-image: url(Elements/Ba.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textBa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textBa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textBa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textBa3:hover
+{
+    text-decoration: underline;
+}
+#Ra-info
+{
+    background-image: url(Elements/Ra.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textRa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRa3:hover
+{
+    text-decoration: underline;
+}
+#Sc-info
+{
+    background-image: url(Elements/Sc.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSc1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textSc2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSc3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRa3:hover
+{
+    text-decoration: underline;
+}
+#Y-info
+{
+    background-image: url(Elements/Y.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textY1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textY2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textY3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textY3:hover
+{
+    text-decoration: underline;
+}
+#Ti-info
+{
+    background-image: url(Elements/Ti.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTi1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textTi2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTi3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTi3:hover
+{
+    text-decoration: underline;
+}
+#Zr-info
+{
+    background-image: url(Elements/Zr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textZr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textZr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textZr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textZr3:hover
+{
+    text-decoration: underline;
+}
+#Hf-info
+{
+    background-image: url(Elements/Hf.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textHf1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textHf2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textHf3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textHf3:hover
+{
+    text-decoration: underline;
+}
+#Rf-info
+{
+    background-image: url(Elements/Rf.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRf1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 170px;
+    position: absolute;
+    z-index: 1;
+}
+textRf2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRf3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRf3:hover
+{
+    text-decoration: underline;
+}
+#La-info
+{
+    background-image: url(Elements/La.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textLa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textLa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textLa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textLa3:hover
+{
+    text-decoration: underline;
+}
+#Ac-info
+{
+    background-image: url(Elements/Ac.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAc1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textAc2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAc3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAc3:hover
+{
+    text-decoration: underline;
+}
+#V-info
+{
+    background-image: url(Elements/V.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textV1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textV2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textV3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textV3:hover
+{
+    text-decoration: underline;
+}
+#Nb-info
+{
+    background-image: url(Elements/Nb.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNb1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textNb2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNb3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNb3:hover
+{
+    text-decoration: underline;
+}
+#Ta-info
+{
+    background-image: url(Elements/Ta.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textTa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTa3:hover
+{
+    text-decoration: underline;
+}
+#Db-info
+{
+    background-image: url(Elements/Db.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textDb1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textDb2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textDb3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textDb3:hover
+{
+    text-decoration: underline;
+}
+#Ce-info
+{
+    background-image: url(Elements/Ce.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textCe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCe3:hover
+{
+    text-decoration: underline;
+}
+#Th-info
+{
+    background-image: url(Elements/Th.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTh1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textTh2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTh3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTh3:hover
+{
+    text-decoration: underline;
+}
+#Cr-info
+{
+    background-image: url(Elements/Cr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textCr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCr3:hover
+{
+    text-decoration: underline;
+}
+#Mo-info
+{
+    background-image: url(Elements/Mo.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textMo1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textMo2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textMo3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textMo3:hover
+{
+    text-decoration: underline;
+}
+#W-info
+{
+    background-image: url(Elements/W.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textW1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textW2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textW3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textW3:hover
+{
+    text-decoration: underline;
+}
+#Sg-info
+{
+    background-image: url(Elements/Sg.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSg1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textSg2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSg3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSg3:hover
+{
+    text-decoration: underline;
+}
+#Pr-info
+{
+    background-image: url(Elements/Pr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 195px;
+    position: absolute;
+    z-index: 1;
+}
+textPr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPr3:hover
+{
+    text-decoration: underline;
+}
+#Pa-info
+{
+    background-image: url(Elements/Pa.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 175px;
+    position: absolute;
+    z-index: 1;
+}
+textPa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPa3:hover
+{
+    text-decoration: underline;
+}
+#Mn-info
+{
+    background-image: url(Elements/Mn.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textMn1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textMn2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textMn3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textMn3:hover
+{
+    text-decoration: underline;
+}
+#Tc-info
+{
+    background-image: url(Elements/Tc.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTc1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textTc2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTc3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTc3:hover
+{
+    text-decoration: underline;
+}
+#Re-info
+{
+    background-image: url(Elements/Re.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 240px;
+    position: absolute;
+    z-index: 1;
+}
+textRe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRe3:hover
+{
+    text-decoration: underline;
+}
+#Bh-info
+{
+    background-image: url(Elements/Bh.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textBh1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textBh2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textBh3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textBh3:hover
+{
+    text-decoration: underline;
+}
+#Nd-info
+{
+    background-image: url(Elements/Nd.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNd1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textNd2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNd3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNd3:hover
+{
+    text-decoration: underline;
+}
+#U-info
+{
+    background-image: url(Elements/U.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textU1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textU2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textU3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textU3:hover
+{
+    text-decoration: underline;
+}
+#Fe-info
+{
+    background-image: url(Elements/Fe.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textFe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textFe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textFe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textFe3:hover
+{
+    text-decoration: underline;
+}
+#Ru-info
+{
+    background-image: url(Elements/Ru.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRu1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textRu2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRu3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRu3:hover
+{
+    text-decoration: underline;
+}
+#Os-info
+{
+    background-image: url(Elements/Os.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textOs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textOs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textOs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textOs3:hover
+{
+    text-decoration: underline;
+}
+#Hs-info
+{
+    background-image: url(Elements/Hs.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textHs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textHs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textHs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textHs3:hover
+{
+    text-decoration: underline;
+}
+#Pm-info
+{
+    background-image: url(Elements/Pm.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPm1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textPm2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPm3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPm3:hover
+{
+    text-decoration: underline;
+}
+#Np-info
+{
+    background-image: url(Elements/Np.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNp1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textNp2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNp3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNp3:hover
+{
+    text-decoration: underline;
+}
+#Co-info
+{
+    background-image: url(Elements/Co.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCo1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textCo2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCo3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCo3:hover
+{
+    text-decoration: underline;
+}
+#Rh-info
+{
+    background-image: url(Elements/Rh.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRh1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textRh2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRh3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRh3:hover
+{
+    text-decoration: underline;
+}
+#Ir-info
+{
+    background-image: url(Elements/Ir.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textIr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textIr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textIr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textIr3:hover
+{
+    text-decoration: underline;
+}
+#Mt-info
+{
+    background-image: url(Elements/Mt.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textMt1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textMt2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textMt3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textMt3:hover
+{
+    text-decoration: underline;
+}
+#Sm-info
+{
+    background-image: url(Elements/Sm.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSm1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textSm2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSm3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSm3:hover
+{
+    text-decoration: underline;
+}
+#Pu-info
+{
+    background-image: url(Elements/Pu.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPu1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textPu2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPu3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPu3:hover
+{
+    text-decoration: underline;
+}
+#Ni-info
+{
+    background-image: url(Elements/Ni.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNi1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textNi2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNi3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNi3:hover
+{
+    text-decoration: underline;
+}
+#Pd-info
+{
+    background-image: url(Elements/Pd.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPd1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textPd2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPd3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPd3:hover
+{
+    text-decoration: underline;
+}
+#Pt-info
+{
+    background-image: url(Elements/Pt.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPt1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textPt2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPt3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPt3:hover
+{
+    text-decoration: underline;
+}
+#Ds-info
+{
+    background-image: url(Elements/Ds.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textDs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 165px;
+    position: absolute;
+    z-index: 1;
+}
+textDs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textDs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textDs3:hover
+{
+    text-decoration: underline;
+}
+#Eu-info
+{
+    background-image: url(Elements/Eu.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textEu1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textEu2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textEu3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textEu3:hover
+{
+    text-decoration: underline;
+}
+#Am-info
+{
+    background-image: url(Elements/Am.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAm1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textAm2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAm3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAm3:hover
+{
+    text-decoration: underline;
+}
+#Cu-info
+{
+    background-image: url(Elements/Cu.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCu1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textCu2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCu3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCu3:hover
+{
+    text-decoration: underline;
+}
+
+#Ag-info
+{
+    background-image: url(Elements/Ag.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAg1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textAg2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAg3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAg3:hover
+{
+    text-decoration: underline;
+}
+#Au-info
+{
+    background-image: url(Elements/Au.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAu1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textAu2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAu3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAu3:hover
+{
+    text-decoration: underline;
+}
+#Rg-info
+{
+    background-image: url(Elements/Rg.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRg1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textRg2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRg3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRg3:hover
+{
+    text-decoration: underline;
+}
+#Gd-info
+{
+    background-image: url(Elements/Gd.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textGd1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textGd2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textGd3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textGd3:hover
+{
+    text-decoration: underline;
+}
+#Cm-info
+{
+    background-image: url(Elements/Cm.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCm1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textCm2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCm3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCm3:hover
+{
+    text-decoration: underline;
+}
+#Zn-info
+{
+    background-image: url(Elements/Zn.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textZn1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textZn2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textZn3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textZn3:hover
+{
+    text-decoration: underline;
+}
+#Cd-info
+{
+    background-image: url(Elements/Cd.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCd1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textCd2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCd3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCd3:hover
+{
+    text-decoration: underline;
+}
+#Hg-info
+{
+    background-image: url(Elements/Hg.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textHg1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textHg2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textHg3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textHg3:hover
+{
+    text-decoration: underline;
+}
+#Cn-info
+{
+    background-image: url(Elements/Cn.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCn1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 175px;
+    position: absolute;
+    z-index: 1;
+}
+textCn2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCn3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCn3:hover
+{
+    text-decoration: underline;
+}
+#Td-info
+{
+    background-image: url(Elements/Td.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTd1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textTd2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTd3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTd3:hover
+{
+    text-decoration: underline;
+}
+#Bk-info
+{
+    background-image: url(Elements/Bk.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textBk1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textBk2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textBk3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textBk3:hover
+{
+    text-decoration: underline;
+}
+#B-info
+{
+    background-image: url(Elements/B.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textB1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 275px;
+    position: absolute;
+    z-index: 1;
+}
+textB2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textB3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textB3:hover
+{
+    text-decoration: underline;
+}
+#Al-info
+{
+    background-image: url(Elements/Al.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAl1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textAl2
+{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAl3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAl3:hover
+{
+    text-decoration: underline;
+}
+#Ga-info
+{
+    background-image: url(Elements/Ga.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textGa1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textGa2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textGa3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textGa3:hover
+{
+    text-decoration: underline;
+}
+#In-info
+{
+    background-image: url(Elements/In.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textIn1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textIn2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textIn3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textIn3:hover
+{
+    text-decoration: underline;
+}
+#Tl-info
+{
+    background-image: url(Elements/Tl.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTl1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textTl2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTl3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTl3:hover
+{
+    text-decoration: underline;
+}
+#Nh-info
+{
+    background-image: url(Elements/Nh.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNh1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textNh2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNh3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNh3:hover
+{
+    text-decoration: underline;
+}
+#Dy-info
+{
+    background-image: url(Elements/Dy.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textDy1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textDy2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textDy3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textDy3:hover
+{
+    text-decoration: underline;
+}
+#Cf-info
+{
+    background-image: url(Elements/Cf.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCf1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 175px;
+    position: absolute;
+    z-index: 1;
+}
+textCf2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCf3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCf3:hover
+{
+    text-decoration: underline;
+}
+#C-info
+{
+    background-image: url(Elements/C.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textC1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textC2
+{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textC3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textC3:hover
+{
+    text-decoration: underline;
+}
+#Si-info
+{
+    background-image: url(Elements/Si.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSi1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textSi2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSi3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSi3:hover
+{
+    text-decoration: underline;
+}
+#Ge-info
+{
+    background-image: url(Elements/Ge.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textGe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textGe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textGe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textGe3:hover
+{
+    text-decoration: underline;
+}
+#Sn-info
+{
+    background-image: url(Elements/Sn.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSn1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textSn2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSn3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSn3:hover
+{
+    text-decoration: underline;
+}
+#Pb-info
+{
+    background-image: url(Elements/Pb.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPb1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textPb2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPb3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPb3:hover
+{
+    text-decoration: underline;
+}
+#Fl-info
+{
+    background-image: url(Elements/Fl.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textFl1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textFl2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textFl3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textFl3:hover
+{
+    text-decoration: underline;
+}
+#Ho-info
+{
+    background-image: url(Elements/Ho.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textHo1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textHo2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textHo3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textHo3:hover
+{
+    text-decoration: underline;
+}
+#Es-info
+{
+    background-image: url(Elements/Es.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textEs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 185px;
+    position: absolute;
+    z-index: 1;
+}
+textEs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textEs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textEs3:hover
+{
+    text-decoration: underline;
+}
+#N-info
+{
+    background-image: url(Elements/N.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textN1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 265px;
+    position: absolute;
+    z-index: 1;
+}
+textN2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textN3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textN3:hover
+{
+    text-decoration: underline;
+}
+#P-info
+{
+    background-image: url(Elements/P.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textP1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textP2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textP3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textP3:hover
+{
+    text-decoration: underline;
+}
+#As-info
+{
+    background-image: url(Elements/As.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textAs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAs3:hover
+{
+    text-decoration: underline;
+}
+#Sb-info
+{
+    background-image: url(Elements/Sb.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSb1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textSb2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSb3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSb3:hover
+{
+    text-decoration: underline;
+}
+#Bi-info
+{
+    background-image: url(Elements/Bi.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textBi1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textBi2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textBi3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textBi3:hover
+{
+    text-decoration: underline;
+}
+#Mc-info
+{
+    background-image: url(Elements/Mc.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textMc1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textMc2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textMc3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textMc3:hover
+{
+    text-decoration: underline;
+}
+#Er-info
+{
+    background-image: url(Elements/Er.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textEr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textEr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textEr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textEr3:hover
+{
+    text-decoration: underline;
+}
+#Fm-info
+{
+    background-image: url(Elements/Fm.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textFm1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textFm2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textFm3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textFm3:hover
+{
+    text-decoration: underline;
+}
+#O-info
+{
+    background-image: url(Elements/O.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textO1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textO2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textO3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textO3:hover
+{
+    text-decoration: underline;
+}
+#S-info
+{
+    background-image: url(Elements/S.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textS1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textS2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textS3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textS3:hover
+{
+    text-decoration: underline;
+}
+#Se-info
+{
+    background-image: url(Elements/Se.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textSe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textSe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textSe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textSe3:hover
+{
+    text-decoration: underline;
+}
+#Te-info
+{
+    background-image: url(Elements/Te.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textTe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTe3:hover
+{
+    text-decoration: underline;
+}
+#Po-info
+{
+    background-image: url(Elements/Po.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textPo1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textPo2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textPo3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textPo3:hover
+{
+    text-decoration: underline;
+}
+#Lv-info
+{
+    background-image: url(Elements/Lv.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textLv1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 180px;
+    position: absolute;
+    z-index: 1;
+}
+textLv2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textLv3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textLv3:hover
+{
+    text-decoration: underline;
+}
+#Tm-info
+{
+    background-image: url(Elements/Tm.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTm1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textTm2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTm3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTm3:hover
+{
+    text-decoration: underline;
+}
+#Md-info
+{
+    background-image: url(Elements/Md.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textMd1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 175px;
+    position: absolute;
+    z-index: 1;
+}
+textMd2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textMd3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textMd3:hover
+{
+    text-decoration: underline;
+}
+#F-info
+{
+    background-image: url(Elements/F.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textF1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textF2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textF3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textF3:hover
+{
+    text-decoration: underline;
+}
+#Cl-info
+{
+    background-image: url(Elements/Cl.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textCl1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textCl2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textCl3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textCl3:hover
+{
+    text-decoration: underline;
+}
+#Br-info
+{
+    background-image: url(Elements/Br.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textBr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 255px;
+    position: absolute;
+    z-index: 1;
+}
+textBr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textBr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textBr3:hover
+{
+    text-decoration: underline;
+}
+#I-info
+{
+    background-image: url(Elements/I.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textI1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 275px;
+    position: absolute;
+    z-index: 1;
+}
+textI2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textI3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textI3:hover
+{
+    text-decoration: underline;
+}
+#At-info
+{
+    background-image: url(Elements/At.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAt1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textAt2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAt3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAt3:hover
+{
+    text-decoration: underline;
+}
+#Ts-info
+{
+    background-image: url(Elements/Ts.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textTs1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textTs2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textTs3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textTs3:hover
+{
+    text-decoration: underline;
+}
+#Yb-info
+{
+    background-image: url(Elements/Yb.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textYb1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textYb2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textYb3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textYb3:hover
+{
+    text-decoration: underline;
+}
+#No-info
+{
+    background-image: url(Elements/No.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNo1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textNo2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNo3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNo3:hover
+{
+    text-decoration: underline;
+}
+#He-info
+{
+    background-image: url(Elements/He.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textHe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textHe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textHe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textHe3:hover
+{
+    text-decoration: underline;
+}
+#Ne-info
+{
+    background-image: url(Elements/Ne.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textNe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 245px;
+    position: absolute;
+    z-index: 1;
+}
+textNe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textNe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textNe3:hover
+{
+    text-decoration: underline;
+}
+#Ar-info
+{
+    background-image: url(Elements/Ar.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textAr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+}
+textAr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textAr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textAr3:hover
+{
+    text-decoration: underline;
+}
+#Kr-info
+{
+    background-image: url(Elements/Kr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textKr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 215px;
+    position: absolute;
+    z-index: 1;
+}
+textKr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textKr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textKr3:hover
+{
+    text-decoration: underline;
+}
+#Xe-info
+{
+    background-image: url(Elements/Xe.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textXe1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textXe2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textXe3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textXe3:hover
+{
+    text-decoration: underline;
+}
+#Rn-info
+{
+    background-image: url(Elements/Rn.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textRn1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 225px;
+    position: absolute;
+    z-index: 1;
+}
+textRn2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textRn3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textRn3:hover
+{
+    text-decoration: underline;
+}
+#Og-info
+{
+    background-image: url(Elements/Og.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textOg1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textOg2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textOg3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textOg3:hover
+{
+    text-decoration: underline;
+}
+#Lu-info
+{
+    background-image: url(Elements/Lu.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textLu1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textLu2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textLu3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textLu3:hover
+{
+    text-decoration: underline;
+}
+#Lr-info
+{
+    background-image: url(Elements/Lr.png);
+    width: 200px;
+    height: 160px;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+textLr1
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 80px;
+    left: 205px;
+    position: absolute;
+    z-index: 1;
+}
+textLr2
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 220px;
+    right: 20px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+textLr3
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 650px;
+    right: 20px;
+    left: 370px;
+    position: absolute;
+    z-index: 1;
+}
+textLr3:hover
+{
+    text-decoration: underline;
+}
+/*Химические Элементы*/
+.container
+{
+    top: 40px;
+    left: 30px;
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+
+    #angle
+    {
+        background-image: url(Elements/angle.png);
+        width: 800px;
+        height: 268px;
+        top: 665px;
+        left: -8px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        cursor: auto;
+    }
+    #H
+    {
+        background-image: url(Elements/H.png);
+        width: 100px;
+        height: 80px;
+        top: 120px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #H:hover
+    {
+        transform: scale(1.1);
+    }
+    #H:hover
+    {
+        transform: scale(1.1);
+    }
+    #Li
+    {
+        background-image: url(Elements/Li.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Li:hover
+    {
+        transform: scale(1.1);
+    }
+    #Na
+    {
+        background-image: url(Elements/Na.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Na:hover
+    {
+        transform: scale(1.1);
+    }
+    #K
+    {
+        background-image: url(Elements/K.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #K:hover
+    {
+        transform: scale(1.1);
+    }
+    #Rb
+    {
+        background-image: url(Elements/Rb.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Rb:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cs
+    {
+        background-image: url(Elements/Cs.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cs:hover
+    {
+        transform: scale(1.1);
+    }
+    #Fr
+    {
+        background-image: url(Elements/Fr.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Fr:hover
+    {
+        transform: scale(1.1);
+    }
+    #Be
+    {
+        background-image: url(Elements/Be.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Be:hover
+    {
+        transform: scale(1.1);
+    }
+    #Mg
+    {
+        background-image: url(Elements/Mg.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Mg:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ca
+    {
+        background-image: url(Elements/Ca.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ca:hover
+    {
+        transform: scale(1.1);
+    }
+    #Sr
+    {
+        background-image: url(Elements/Sr.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Sr:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ba
+    {
+        background-image: url(Elements/Ba.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ba:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ra
+    {
+        background-image: url(Elements/Ra.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ra:hover
+    {
+        transform: scale(1.1);
+    }
+    #Sc
+    {
+        background-image: url(Elements/Sc.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Sc:hover
+    {
+        transform: scale(1.1);
+    }
+    #Y
+    {
+        background-image: url(Elements/Y.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Y:hover
+    {
+        transform: scale(1.1);
+    }
+    #skip-icon
+    {
+        background-image: url(Elements/Skip-icon.png);
+        width: 100px;
+        height: 165px;
+        top: 545px;
+        left: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        cursor: auto;
+    }
+    #Ti
+    {
+        background-image: url(Elements/Ti.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ti:hover
+    {
+        transform: scale(1.1);
+    }
+    #Zr
+    {
+        background-image: url(Elements/Zr.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Zr:hover
+    {
+        transform: scale(1.1);
+    }
+    #Hf
+    {
+        background-image: url(Elements/Hf.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Hf:hover
+    {
+        transform: scale(1.1);
+    }
+    #Rf
+    {
+        background-image: url(Elements/Rf.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Rf:hover
+    {
+        transform: scale(1.1);
+    }
+    #La
+    {
+        background-image: url(Elements/La.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #La:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ac
+    {
+        background-image: url(Elements/Ac.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ac:hover
+    {
+        transform: scale(1.1);
+    }
+    #V
+    {
+        background-image: url(Elements/V.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #V:hover
+    {
+        transform: scale(1.1);
+    }
+    #Nb
+    {
+        background-image: url(Elements/Nb.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Nb:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ta
+    {
+        background-image: url(Elements/Ta.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ta:hover
+    {
+        transform: scale(1.1);
+    }
+    #Db
+    {
+        background-image: url(Elements/Db.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Db:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ce
+    {
+        background-image: url(Elements/Ce.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ce:hover
+    {
+        transform: scale(1.1);
+    }
+    #Th
+    {
+        background-image: url(Elements/Th.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Th:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cr
+    {
+        background-image: url(Elements/Cr.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 410px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cr:hover
+    {
+        transform: scale(1.1);
+    }
+    #Mo
+    {
+        background-image: url(Elements/Mo.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 410px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Mo:hover
+    {
+        transform: scale(1.1);
+    }
+    #W
+    {
+        background-image: url(Elements/W.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 410px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #W:hover
+    {
+        transform: scale(1.1);
+    }
+    #Sg
+    {
+        background-image: url(Elements/Sg.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 410px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Sg:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pr
+    {
+        background-image: url(Elements/Pr.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 410px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pr:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pa
+    {
+        background-image: url(Elements/Pa.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 410px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pa:hover
+    {
+        transform: scale(1.1);
+    }
+    #Mn
+    {
+        background-image: url(Elements/Mn.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Mn:hover
+    {
+        transform: scale(1.1);
+    }
+    #Tc
+    {
+        background-image: url(Elements/Tc.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Tc:hover
+    {
+        transform: scale(1.1);
+    }
+    #Re
+    {
+        background-image: url(Elements/Re.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Re:hover
+    {
+        transform: scale(1.1);
+    }
+    #Bh
+    {
+        background-image: url(Elements/Bh.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Bh:hover
+    {
+        transform: scale(1.1);
+    }
+    #Nd
+    {
+        background-image: url(Elements/Nd.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Nd:hover
+    {
+        transform: scale(1.1);
+    }
+    #U
+    {
+        background-image: url(Elements/U.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #U:hover
+    {
+        transform: scale(1.1);
+    }
+    #Fe
+    {
+        background-image: url(Elements/Fe.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Fe:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ru
+    {
+        background-image: url(Elements/Ru.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ru:hover
+    {
+        transform: scale(1.1);
+    }
+    #Os
+    {
+        background-image: url(Elements/Os.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Os:hover
+    {
+        transform: scale(1.1);
+    }
+    #Hs
+    {
+        background-image: url(Elements/Hs.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Hs:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pm
+    {
+        background-image: url(Elements/Pm.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pm:hover
+    {
+        transform: scale(1.1);
+    }
+    #Np
+    {
+        background-image: url(Elements/Np.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Np:hover
+    {
+        transform: scale(1.1);
+    }
+    #Co
+    {
+        background-image: url(Elements/Co.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 620px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Co:hover
+    {
+        transform: scale(1.1);
+    }
+    #Rh
+    {
+        background-image: url(Elements/Rh.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 620px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Rh:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ir
+    {
+        background-image: url(Elements/Ir.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 620px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ir:hover
+    {
+        transform: scale(1.1);
+    }
+    #Mt
+    {
+        background-image: url(Elements/Mt.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 620px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Mt:hover
+    {
+        transform: scale(1.1);
+    }
+    #Sm
+    {
+        background-image: url(Elements/Sm.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 620px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Sm:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pu
+    {
+        background-image: url(Elements/Pu.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 620px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pu:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ni
+    {
+        background-image: url(Elements/Ni.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 690px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ni:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pd
+    {
+        background-image: url(Elements/Pd.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 690px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pd:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pt
+    {
+        background-image: url(Elements/Pt.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 690px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pt:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ds
+    {
+        background-image: url(Elements/Ds.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 690px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ds:hover
+    {
+        transform: scale(1.1);
+    }
+    #Eu
+    {
+        background-image: url(Elements/Eu.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 690px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Eu:hover
+    {
+        transform: scale(1.1);
+    }
+    #Am
+    {
+        background-image: url(Elements/Am.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 690px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Am:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cu
+    {
+        background-image: url(Elements/Cu.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 760px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cu:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ag
+    {
+        background-image: url(Elements/Ag.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 760px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ag:hover
+    {
+        transform: scale(1.1);
+    }
+    #Au
+    {
+        background-image: url(Elements/Au.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 760px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Au:hover
+    {
+        transform: scale(1.1);
+    }
+    #Rg
+    {
+        background-image: url(Elements/Rg.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 760px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Rg:hover
+    {
+        transform: scale(1.1);
+    }
+    #Gd
+    {
+        background-image: url(Elements/Gd.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 760px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Gd:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cm
+    {
+        background-image: url(Elements/Cm.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 760px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cm:hover
+    {
+        transform: scale(1.1);
+    }
+    #Zn
+    {
+        background-image: url(Elements/Zn.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 830px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Zn:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cd
+    {
+        background-image: url(Elements/Cd.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 830px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cd:hover
+    {
+        transform: scale(1.1);
+    }
+    #Hg
+    {
+        background-image: url(Elements/Hg.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 830px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Hg:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cn
+    {
+        background-image: url(Elements/Cn.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 830px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cn:hover
+    {
+        transform: scale(1.1);
+    }
+    #Td
+    {
+        background-image: url(Elements/Td.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 830px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Td:hover
+    {
+        transform: scale(1.1);
+    }
+    #Bk
+    {
+        background-image: url(Elements/Bk.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 830px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Bk:hover
+    {
+        transform: scale(1.1);
+    }
+    #B
+    {
+        background-image: url(Elements/B.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #B:hover
+    {
+        transform: scale(1.1);
+    }
+    #Al
+    {
+        background-image: url(Elements/Al.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Al:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ga
+    {
+        background-image: url(Elements/Ga.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ga:hover
+    {
+        transform: scale(1.1);
+    }
+    #In
+    {
+        background-image: url(Elements/In.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #In:hover
+    {
+        transform: scale(1.1);
+    }
+    #Tl
+    {
+        background-image: url(Elements/Tl.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Tl:hover
+    {
+        transform: scale(1.1);
+    }
+    #Nh
+    {
+        background-image: url(Elements/Nh.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Nh:hover
+    {
+        transform: scale(1.1);
+    }
+    #Dy
+    {
+        background-image: url(Elements/Dy.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Dy:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cf
+    {
+        background-image: url(Elements/Cf.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 900px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cf:hover
+    {
+        transform: scale(1.1);
+    }
+    #C
+    {
+        background-image: url(Elements/C.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #C:hover
+    {
+        transform: scale(1.1);
+    }
+    #Si
+    {
+        background-image: url(Elements/Si.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Si:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ge
+    {
+        background-image: url(Elements/Ge.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ge:hover
+    {
+        transform: scale(1.1);
+    }
+    #Sn
+    {
+        background-image: url(Elements/Sn.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Sn:hover
+    {
+        transform: scale(1.1);
+    }
+    #Pb
+    {
+        background-image: url(Elements/Pb.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Pb:hover
+    {
+        transform: scale(1.1);
+    }
+    #Fl
+    {
+        background-image: url(Elements/Fl.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Fl:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ho
+    {
+        background-image: url(Elements/Ho.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ho:hover
+    {
+        transform: scale(1.1);
+    }
+    #Es
+    {
+        background-image: url(Elements/Es.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 970px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Es:hover
+    {
+        transform: scale(1.1);
+    }
+    #N
+    {
+        background-image: url(Elements/N.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #N:hover
+    {
+        transform: scale(1.1);
+    }
+    #P
+    {
+        background-image: url(Elements/P.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #P:hover
+    {
+        transform: scale(1.1);
+    }
+    #As
+    {
+        background-image: url(Elements/As.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #As:hover
+    {
+        transform: scale(1.1);
+    }
+    #Sb
+    {
+        background-image: url(Elements/Sb.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Sb:hover
+    {
+        transform: scale(1.1);
+    }
+    #Bi
+    {
+        background-image: url(Elements/Bi.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Bi:hover
+    {
+        transform: scale(1.1);
+    }
+    #Mc
+    {
+        background-image: url(Elements/Mc.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Mc:hover
+    {
+        transform: scale(1.1);
+    }
+    #Er
+    {
+        background-image: url(Elements/Er.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Er:hover
+    {
+        transform: scale(1.1);
+    }
+    #Fm
+    {
+        background-image: url(Elements/Fm.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 1040px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Fm:hover
+    {
+        transform: scale(1.1);
+    }
+    #O
+    {
+        background-image: url(Elements/O.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #O:hover
+    {
+        transform: scale(1.1);
+    }
+    #S
+    {
+        background-image: url(Elements/S.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #S:hover
+    {
+        transform: scale(1.1);
+    }
+    #Se
+    {
+        background-image: url(Elements/Se.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Se:hover
+    {
+        transform: scale(1.1);
+    }
+    #Te
+    {
+        background-image: url(Elements/Te.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Te:hover
+    {
+        transform: scale(1.1);
+    }
+    #Po
+    {
+        background-image: url(Elements/Po.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Po:hover
+    {
+        transform: scale(1.1);
+    }
+    #Lv
+    {
+        background-image: url(Elements/Lv.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Lv:hover
+    {
+        transform: scale(1.1);
+    }
+    #Tm
+    {
+        background-image: url(Elements/Tm.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Tm:hover
+    {
+        transform: scale(1.1);
+    }
+    #Md
+    {
+        background-image: url(Elements/Md.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 1110px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Md:hover
+    {
+        transform: scale(1.1);
+    }
+    #F
+    {
+        background-image: url(Elements/F.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #F:hover
+    {
+        transform: scale(1.1);
+    }
+    #Cl
+    {
+        background-image: url(Elements/Cl.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Cl:hover
+    {
+        transform: scale(1.1);
+    }
+    #Br
+    {
+        background-image: url(Elements/Br.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Br:hover
+    {
+        transform: scale(1.1);
+    }
+    #I
+    {
+        background-image: url(Elements/I.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #I:hover
+    {
+        transform: scale(1.1);
+    }
+    #At
+    {
+        background-image: url(Elements/At.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #At:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ts
+    {
+        background-image: url(Elements/Ts.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ts:hover
+    {
+        transform: scale(1.1);
+    }
+    #Yb
+    {
+        background-image: url(Elements/Yb.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Yb:hover
+    {
+        transform: scale(1.1);
+    }
+    #No
+    {
+        background-image: url(Elements/No.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 1180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #No:hover
+    {
+        transform: scale(1.1);
+    }
+    #He
+    {
+        background-image: url(Elements/He.png);
+        width: 100px;
+        height: 80px;
+        top: 120px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #He:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ne
+    {
+        background-image: url(Elements/Ne.png);
+        width: 100px;
+        height: 80px;
+        top: 205px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ne:hover
+    {
+        transform: scale(1.1);
+    }
+    #Ar
+    {
+        background-image: url(Elements/Ar.png);
+        width: 100px;
+        height: 80px;
+        top: 290px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Ar:hover
+    {
+        transform: scale(1.1);
+    }
+    #Kr
+    {
+        background-image: url(Elements/Kr.png);
+        width: 100px;
+        height: 80px;
+        top: 375px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Kr:hover
+    {
+        transform: scale(1.1);
+    }
+    #Xe
+    {
+        background-image: url(Elements/Xe.png);
+        width: 100px;
+        height: 80px;
+        top: 460px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Xe:hover
+    {
+        transform: scale(1.1);
+    }
+    #Rn
+    {
+        background-image: url(Elements/Rn.png);
+        width: 100px;
+        height: 80px;
+        top: 545px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Rn:hover
+    {
+        transform: scale(1.1);
+    }
+    #Og
+    {
+        background-image: url(Elements/Og.png);
+        width: 100px;
+        height: 80px;
+        top: 630px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Og:hover
+    {
+        transform: scale(1.1);
+    }
+    #Lu
+    {
+        background-image: url(Elements/Lu.png);
+        width: 100px;
+        height: 80px;
+        top: 715px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Lr
+    {
+        background-image: url(Elements/Lr.png);
+        width: 100px;
+        height: 80px;
+        top: 800px;
+        left: 1250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.3s;
+    }
+    #Lr:hover, #Lu:hover
+    {
+        transform: scale(1.1);
+    }
+}
